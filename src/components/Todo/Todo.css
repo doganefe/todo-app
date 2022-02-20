@@ -1,0 +1,77 @@
+.todo {
+    user-select: none;
+    /* border-bottom: 1px solid lightgray; */
+    display: flex;
+    align-items: center;
+    height: 40px;
+}
+
+.toggled {
+    text-decoration: line-through;
+}
+
+.todo__checkbox {
+    width: 15px;
+    height: 15px;
+    background-color: gray;
+    border-radius: 50%;
+    margin-right: .5rem;
+}
+
+.green {
+    background-color: rgb(53, 216, 21);
+}
+
+.gray {
+    background-color: transparent;
+    border: 1px solid lightgray;
+}
+
+.todo__buttons {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: auto;
+}
+
+.todo button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .2rem;
+    margin: .2rem;
+}
+
+.todo__buttons__edit {
+    color: blue;
+}
+
+.todo__buttons__delete {
+    color: red;
+}
+
+.todo__left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: .5rem;
+    cursor: pointer;
+
+}
+
+.todo__edit {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.todo__input {
+    margin: 0 .5rem;
+    padding: .5rem;
+    width: 100%;
+}
+
+.icon__done {
+    width: 20px;
+    margin-left: .25rem;
+}
