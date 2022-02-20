@@ -22,9 +22,10 @@ const List = () => {
   return (
     <main>
       <div className="list" ref={listRef}>
-        {todos.map((todo) => (
-          <Todo key={todo.id} todo={todo} isScrollBarVisible={isVisible} />
-        ))}
+        {todos &&
+          todos.map((todo) => (
+            <Todo key={todo.id} todo={todo} isScrollBarVisible={isVisible} />
+          ))}
       </div>
     </main>
   );

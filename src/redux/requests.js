@@ -1,5 +1,5 @@
 import axios from "axios";
-const baseUrl = "http://localhost:8080/todos";
+const baseUrl = "https://fake-server-getirstudycase.herokuapp.com/todos";
 
 export async function fetchTodos() {
   try {
